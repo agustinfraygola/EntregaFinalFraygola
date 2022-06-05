@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<div class="">
+    <!DOCTYPE html>
+</div>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>La tortuguita restaurant</title>
+</head>
+
+<body>
+
+    <div class="tortugaContainer">
+        <a class="tortu" href="menu.html">
+            <img src="tortu.png">
+        </a>
+    </div>
+    <div class="padre">
+
+
+        <div class="empanadasUno">
+            <a><img src="empanada.png"></a>
+
+        </div>
+
+
+
+        <div class="mainBody">
+            <div class="bloqueA">
+                <div class="titulazo">
+                    <h1>¿Que empanadas ofrecemos?</h1> 
+                    <button id="mostrarToggle">Mostrar menu</button>
+                </div>
+                <section id="menuToggle" class="btn-ghost">
+                    <div class="container">
+                        <h7 id="listJQ">Jamon y queso (60$)</h7>
+                        <h7 id="listC">Carne (60$)</h7>
+                        <h7 id="listQA">Queso y aceituna (62$)</h7>
+                        <h7 id="list4Q">Cuatro quesos (66$)</h7>
+                    </div>
+                </section>
+            </div>
+            <div class="bloqueB">
+                <div class="precios">
+                    <h2>Precio sin IVA</h2>
+                    <p>El precio sin IVA incluido es de: <span id="valor"></span> </p>
+
+                    <h2>Precio con IVA</h2>
+                    <p>El precio con IVA incluido es de: <span id="IVAinc"></span> </p>
+                </div>
+                <fieldset>
+                    <form>
+                    <input id="cantidad" type="number" placeholder="Cantidad de empanadas">
+
+                        <p>¿Que empanada desea llevar?</p>
+                        <div class="queEmpanada">
+                            <input type="radio" class="radiobtn" id="radioJyQ" name="radioEmpanada" >
+                            <label for="empanada1">Jamon y queso</label>
+                            <br>
+                            <input type="radio" class="radiobtn" id="radioC" name="radioEmpanada" >
+                            <label for="empanada2">Carne</label>
+                            <br>
+                            <input type="radio" class="radiobtn" id="radioQyA" name="radioEmpanada" >
+                            <label for="empanada3">Queso y Aceituna</label>
+                            <br>
+                            <input type="radio" class="radiobtn"  id="radio4Q" name="radioEmpanada" >
+                            <label for="empanada4">Cuatro quesos</label>
+                        </div>
+                    
+                    <button type="button" id="btnAnadir">AÑADIR</button>
+                </form>
+                </fieldset>
+            </div>
+        </div>
+        <script src="miarchivo.js"></script>
+
+
+        <div class="empanadaDos"><a class="empanadaDos"><img src="empanada.png"></a></div>
+    </div>
+    <div class="bloqueFondo"> </div>
+
+    <div class="text">
+        <h1>¿Quienes somos?</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.
+        </h4>
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    background-color: var(--green)
+}
+
+.mainBody {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+#mostrarToggle {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 10px;
+    margin-left: 13%;
+}
+
+#mostrarToggle:hover {
+    background-color: #3e8e41
+}
+
+#mostrarToggle:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tortu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tortugaContainer {
+    background-color: black;
+    margin-bottom: 4px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.text {
+    background-color: black;
+    margin-bottom: 4px;
+    color: #62CB31;
+}
+
+.empandaDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.padre {
+    display: flex;
+    justify-content: space-around;
+    background-color: #62CB31;
+    border: #62CB31;
+    border-top: 6px;
+    border-bottom: 6px;
+    border-left: 6px;
+    border-right: 6px;
+}
+
+:root {
+    --green: #62CB31;
+    --white: white;
+    --purple: #9B59B6;
+    --black: black;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.btn-container {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.btn-ghost {
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--black);
+    padding: 20px 80px;
+    color: var(--green);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: var(--black);
+    transition: color 0.5s, background 0.5s;
+    font-size: 2em;
+    border-radius: 30px;
+    width: 140px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px;
+    height: 450px;
+
+
+}
+
+.btn-ghost:hover {
+    background-color: transparent;
+    border: 4px solid var(--black);
+    color: var(--black);
+
+}
+
+body {
+    background-image: url("empanadaFondo.jpg");
+}
+
+.text {
+    text-align: center;
+}
